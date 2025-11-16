@@ -7,6 +7,7 @@ int main(){
             sum = sum + i;
         }
     }
-    printf("sum of even = %d", sum);
+    printf("sum of even = %d", &sum);
     return 0;
+
 }
